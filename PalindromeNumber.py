@@ -1,11 +1,3 @@
-
-# x=int(input("enter the number: "))
-
-# if str(x)==str(x)[::-1]:
-#     print("palindrome number")
-# else:
-#     print("not palindrome")
-    
 class PalindromeNumber(object):
     def isPalindrome(self,x):
         if (x<0):
